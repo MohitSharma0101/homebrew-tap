@@ -1,6 +1,6 @@
 cask "dev-servers" do
-  version "1.0.0"
-  sha256 "e10b61ef84b0e832f7f144e5df644c02f60be173f90dfa129d622a2570f617eb"
+  version "1.0.1"
+  sha256 "014d55f44ef737010601214d4501442ea38ea714e9092da292e895b483bf4c72"
 
   url "https://github.com/MohitSharma0101/swiftbar-dev-servers/releases/download/v#{version}/dev-servers.sh"
   name "Dev Servers"
@@ -25,7 +25,10 @@ cask "dev-servers" do
   ]
 
   caveats <<~EOS
-    Dev Servers is installed in ~/.swiftbar. If SwiftBar asks for a plugin folder, choose that one.
+    One more step, to point SwiftBar at Dev Servers and start it:
+
+      ~/.swiftbar/dev-servers.sh enable
+
     If you already use another plugin folder, run the installer from the README instead.
   EOS
 end

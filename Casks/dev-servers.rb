@@ -1,6 +1,6 @@
 cask "dev-servers" do
-  version "1.0.1"
-  sha256 "014d55f44ef737010601214d4501442ea38ea714e9092da292e895b483bf4c72"
+  version "1.1.0"
+  sha256 "ab31850574692b418c3c8487e8d004cdcc43a166d157d1d4c3b9bdfd60bb8c0e"
 
   url "https://github.com/MohitSharma0101/swiftbar-dev-servers/releases/download/v#{version}/dev-servers.sh"
   name "Dev Servers"
